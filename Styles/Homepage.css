@@ -304,10 +304,10 @@ body{
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
 
 .fling-minislide img:nth-child(5){animation-delay:0s;}
-.fling-minislide img:nth-child(4){animation-delay:5s;}
-.fling-minislide img:nth-child(3){animation-delay:10s;}
-.fling-minislide img:nth-child(2){animation-delay:15s;}
-.fling-minislide img:nth-child(1){animation-delay:20s;}
+.fling-minislide img:nth-child(4){animation-delay:3s;}
+.fling-minislide img:nth-child(3){animation-delay:6s;}
+.fling-minislide img:nth-child(2){animation-delay:9s;}
+.fling-minislide img:nth-child(1){animation-delay:12s;}
 
 
 
