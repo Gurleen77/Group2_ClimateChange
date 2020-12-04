@@ -1,0 +1,29 @@
+
+body{
+    background-color: #faf8f2;
+    margin: auto;
+    border-style: solid;
+    padding: 15px;
+}
+
+section{
+    max-width: 550px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 3%;
+    background: linear-gradient(rgb(248, 205, 200), rgb(153, 228, 218));
+    border-style: double;
+    border-radius: .6em;
+}
+
+header{
+    padding: 21px;
+    text-align:center;
+    font: outline;
+    font-style: oblique;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    font-family: initial;
+}
