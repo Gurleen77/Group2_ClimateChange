@@ -292,7 +292,7 @@ body{
 .fling-minislide img{ 
 	position:absolute; 
     animation:fling-minislide 20s infinite; 
-    height:70%;
+    height:60%;
 	transform: translateX(-15%);
 	transform: translateY(-5%);
     width: 48%;
