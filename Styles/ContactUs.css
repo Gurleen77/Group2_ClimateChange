@@ -117,3 +117,97 @@
 #div_aside_last{
     margin-right: 0%;
 }   
+
+
+/*------------------------MEDIA QUERIES----------*/
+
+
+@media screen and (max-width : 700px) {
+    #div_aside_first{
+        margin-left: 2%;
+    }
+    
+    #div_aside_last{
+        margin-left: 2%;
+        margin-top: 3%;
+    }
+    #formula1{
+        text-align: center !important; 
+        background: linear-gradient( #3e60da, rgb(230, 216, 216)) !important;
+        max-width: 70% !important; 
+        margin: auto !important; 
+        padding-left: 0% !important; 
+        border-radius: 5% !important; 
+        padding: 0% !important; 
+        margin-top: 2% !important; 
+        margin-bottom: 0% !important; 
+        font-size: small !important; 
+    }
+    #fName, #lName {
+        padding: 1.5%;
+        width: 100%;
+    }
+    #hr_tag{
+        display: none;
+        position: unset;
+        color: white;
+        border: white;
+    }
+    #phoneNumber{
+        font-weight: bold; 
+        margin-top: 32%;
+        text-align: left;
+        margin-left: 2%;
+    }
+    #aside_last{
+        margin-top: 1%;
+        float: left;
+        text-align: left;
+    }
+    #aside_first{
+        float: left;
+        text-align: left;
+    }
+    #telNo, #mailTo {
+        padding: 1.5%; 
+        margin-top: 0%;
+        text-align: left;
+        margin-left: 1%;
+    }
+    #emailTo{
+        font-weight: bold; 
+        text-align: left;
+        margin-left: 2%;
+        margin-top: -10%;
+    }
+    #asideleft{
+        margin-left: 1%;
+        float: left;
+    }
+    #asideright{
+        float: left;
+        text-align: left;
+        margin-left: 10%;
+    }
+    #submitDiv{
+        margin-top: 30%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    #pref{
+        font-weight: bold;
+         text-align: left;
+         margin-left: 2%;
+         margin-top: -10%;
+    }
+    #heading1{
+        color: black;
+        font-family: emoji;
+        font-size: x-large;
+        margin-top: 5%;
+    }
+    .br_tag{
+        visibility: hidden;
+        display: none;
+    }
+}
