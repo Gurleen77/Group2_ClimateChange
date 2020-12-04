@@ -27,3 +27,35 @@ header{
     text-decoration-style: double;
     font-family: initial;
 }
+
+
+label{
+    padding-left: 20px ;
+    margin: 3px;
+    display: inline-block;
+    font-weight: 510;
+    font-size: .7em;
+}
+
+
+input{
+    padding: 10px;
+    margin: 3px;
+}
+
+.column1 {
+    padding: 7px;
+    margin-bottom: 7px;
+    width: 55%;
+    padding-left: 7px;
+    height: 10%;
+    margin-left: 10px;
+    border-style: outset;
+    border-radius: 5px;
+    border-bottom-color:  rgb(103, 168, 225);
+}
+
+.col-3{
+    
+    width: 27%;
+}
