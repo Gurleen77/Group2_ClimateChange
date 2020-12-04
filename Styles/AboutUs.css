@@ -13,6 +13,14 @@ body{
     background: repeating-linear-gradient(45deg, #98c6396e, transparent 100px);
 }
 
+.Img1{
+    height: 25%;
+    width: 25%;
+    margin-left: 37%;
+    margin-right: 40%;
+    margin-top: 1%;
+}
+
 .para{
     font-size: x-large;
     margin-left: 6%;
@@ -33,14 +41,41 @@ body{
     margin-right: 30%;
 }
 
+.heading-2{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    font-size: 260%;
+    font-family: emoji;
+    color: #ab5308;
+    background: repeating-linear-gradient(45deg, #a699ef9e, transparent 100px);
+}
 
+table{
+     
+    width: 30%; margin-left: auto; margin-right: auto; margin-top: 2%;
+}
+    /* To style table row, table head and table data/cells */
+    table, tr, th, td { 
+    width: 40%;
+    border-collapse: collapse;
+    border: solid 0.1em #000000; 
+    padding: 0.5em;
+    box-sizing: border-box;
+    background-color: rgb(210, 233, 243);
+     }
+     
+    /* To style the text in  cells*/
+    td {
+    text-align: center;
+    }
+    
+    caption {
+    font-size: 2em; 
+    padding: 0.5em;
+     margin-top: 1em;
+    }
 
-
-
-
-
-
-/*----------MEDIA QUERIES---------------*/
 
 @media screen and (max-width : 700px){
     .head{
@@ -60,5 +95,65 @@ body{
         margin-left: 30%;
         margin-right: 30%;
     }
+    .heading-2{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2%;
+        font-size: 130%;
+        font-family: emoji;
+        color: #ab5308;
+        background: repeating-linear-gradient(45deg, #a699ef9e, transparent 100px);
+    }
+    .Img1{
+        height: 25%;
+        width: 25%;
+        margin-left: 37%;
+        margin-right: 40%;
+        margin-top: 2%;
+    }
+    .para{
+        font-size: medium;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        text-align: center;
+        color: #6c1965;
+        background: lavender;
+    }
+    .list{
+        font-weight: bold;
+        font-size: medium;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .list_ul{
+        text-align: left;
+        align-items: flex-start;
+    }
 }
 
+table{
+     
+        width: 30%; margin-left: auto; margin-right: auto; margin-top: 2%;
+}
+        /* To style table row, table head and table data/cells */
+        table, tr, th, td { 
+        width: 40%;
+        border-collapse: collapse;
+        border: solid 0.1em #000000; 
+        padding: 0.5em;
+        box-sizing: border-box;
+        background-color: rgb(210, 233, 243);
+         }
+         
+        /* To style the text in  cells*/
+        td {
+        text-align: center;
+        }
+        
+        caption {
+        font-size: 2em; 
+        padding: 0.5em;
+         margin-top: 1em;
+        }
