@@ -84,7 +84,6 @@ body{
 }
 
 
-<<<<<<< HEAD
 /* ------ top nav ------ */
 #top_nav{
     overflow-x: hidden;
@@ -161,7 +160,6 @@ body{
 .clearfix::after{content: " ";display: block;clear:both;}
 
 
-=======
 
 
 /*--------------------FOOTER---------------------------*/
@@ -206,4 +204,3 @@ body{
 .full div{text-align:center;}
 
 .copyright{border-top: solid 1px #ddd;margin-top: 20px;padding-top:10px;}
->>>>>>> 1bca7071460bb39a99ac98ad94e45b45f5dca3e7
