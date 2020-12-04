@@ -1,0 +1,166 @@
+
+body{
+    background-color: #faf8f2;
+}
+
+.aside1 { 
+    background-color: #FBE7C6; 
+    border-radius: 3%; 
+    width: 30%; 
+    float: right; 
+    padding: 2%; 
+    margin-top: 3.4%; 
+    margin-right: 2%;
+    color: #066a66; 
+  }
+
+.aside2 { 
+background-color: #FBE7C6; 
+border-radius: 3%; 
+width: 30%; 
+float: left; 
+padding: 2%; 
+margin-top: 3.5%; 
+color: #066a66; 
+margin-left: 2%;
+}
+
+.h1aside{
+    text-align: center;
+    background-color: #f7dada;
+    color: rgb(211, 29, 29);
+}
+
+.quote{
+    font-size: x-large;
+}
+
+#section-1{
+    border-color: beige;
+    border-style: inset;
+    border-radius: 3%;
+    width: 65%;
+    background-color: #edc0c7;
+    color: #656506; 
+    margin-top: 3%; 
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    padding: 1%; 
+    float: left;
+}
+
+
+#section-2{
+    border-color: beige;
+    border-style: groove;
+    border-radius: 3%;
+    width: 65%;
+    background-color:#edc0c7;
+    color: #656506; 
+    margin-top: 3%; 
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    padding: 1%; 
+    float: right;
+}
+
+.C-h1{
+    display: block;
+    font-size: 280%;
+    margin-block-start: 2%;
+    margin-block-end: 2%;
+    font-weight: bold;
+    background: linear-gradient(180deg, #0ee30e, transparent);
+    color: #063a3a;
+    text-align: center;
+    font-family: -webkit-body;
+}
+
+.C-h2{
+    color: #e27f2b;
+    text-align: center;
+    font-size: 210%;
+    background: #e9ddd0;
+}
+
+
+.Para-1{
+     padding-top: 0.5%;
+}
+
+
+.Img-1{
+    float: left;
+    height: 200%;
+    width: 35%;
+    padding: 0.7%;
+}
+
+
+article{
+    font-family: fangsong;
+    font-size: xx-large;
+    text-align: center;
+    padding-left: 17%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+
+@media screen and (max-width : 700px){
+    .aside2 { 
+        background-color: #FBE7C6; 
+        border-radius: 3%; 
+        width: 95%; 
+        float: left; 
+        padding: 2%; 
+        margin-top: 3%; 
+        margin-left: 2%;
+        color: #066a66;
+        }
+
+    .aside1 { 
+        background-color: #FBE7C6; 
+        border-radius: 3%; 
+        width: 95%; 
+        float: right; 
+        padding: 2%; 
+        margin-top: 3.5%; 
+        color: #066a66; 
+        visibility: hidden;
+        display: none;
+        }
+
+    #section-1{
+        border-color: beige;
+        border-style: inset;
+        border-radius: 3%;
+        width: 95%;
+        background-color: #edc0c7;
+        color: #656506; 
+        margin-top: 3%; 
+        margin-left: 2%;
+        margin-bottom: 2%;
+        padding: 1%; 
+        float: left;
+    }
+    
+    #section-2{
+        border-color: beige;
+        border-style: groove;
+        border-radius: 3%;
+        width: 95%;
+        background-color: #edc0c7;
+        color:#656506; 
+        margin-top: 3%; 
+        margin-left: 2%;
+        margin-bottom: 2%;
+        padding: 1%; 
+        float: left;
+    }
+
+  
+}

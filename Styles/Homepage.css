@@ -84,6 +84,7 @@ body{
 }
 
 
+<<<<<<< HEAD
 /* ------ top nav ------ */
 #top_nav{
     overflow-x: hidden;
@@ -160,3 +161,49 @@ body{
 .clearfix::after{content: " ";display: block;clear:both;}
 
 
+=======
+
+
+/*--------------------FOOTER---------------------------*/
+#footer{
+	padding: 30px;
+}
+.sub_footer{
+	width: 50%;
+	padding: 30px;
+	float: left;
+}
+
+.sub_footer form{padding: 30px;background:#bbb;border-radius: 8px;}
+.sub_footer form input{
+	padding: 8px;
+	width: 100%;
+	display:inline-block;
+	margin: 8px 0px;
+}
+
+.apps{
+    width: 20%;
+    height: 20%;
+    margin: 1%;
+}
+
+.icons:hover{
+    color: #439409;
+    font-size: large;
+}
+
+
+
+.sub_footer h4{text-align:center;padding:10px;}
+
+.sub_footer div{text-align:center;}
+.sub_footer div a, .full div a{display:inline-block;padding: 12px 20px;}
+.sub_footer div img{width: 50px;max-height: 50px;}
+.full{background: #bbb;border-radius: 8px;}
+
+.full{width: 100%;padding: 10px;display:block;float:none;clear: both;}
+.full div{text-align:center;}
+
+.copyright{border-top: solid 1px #ddd;margin-top: 20px;padding-top:10px;}
+>>>>>>> 1bca7071460bb39a99ac98ad94e45b45f5dca3e7
