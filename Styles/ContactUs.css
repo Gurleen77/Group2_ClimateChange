@@ -104,10 +104,12 @@
 #aside_last{
     float: right;
     text-align: left;
+    width: 45%;
 }
 #aside_first{
     float: left;
     text-align: left;
+    width: 45%;
 }
 
 #div_aside_first{
@@ -116,11 +118,7 @@
 
 #div_aside_last{
     margin-right: 0%;
-}   
-
-
-/*------------------------MEDIA QUERIES----------*/
-
+}                                                 
 
 @media screen and (max-width : 700px) {
     #div_aside_first{
@@ -163,10 +161,14 @@
         margin-top: 1%;
         float: left;
         text-align: left;
+        width: 65%;
+        margin-left: 1%;
     }
     #aside_first{
         float: left;
         text-align: left;
+        width: 65%;
+        margin-left: 1%;
     }
     #telNo, #mailTo {
         padding: 1.5%; 
