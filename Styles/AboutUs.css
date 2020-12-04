@@ -33,6 +33,7 @@ body{
     margin-right: 30%;
 }
 
+<<<<<<< HEAD
 
 
 /*--------------------MEDIA QUERIES---------------------*/
@@ -57,3 +58,25 @@ body{
         margin-right: 30%;
     }
 }
+=======
+.Img1{
+    height: 25%;
+    width: 25%;
+    margin-left: 37%;
+    margin-right: 40%;
+    margin-top: 1%;
+}
+
+
+.heading-2{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    font-size: 260%;
+    font-family: emoji;
+    color: #ab5308;
+    background: repeating-linear-gradient(45deg, #a699ef9e, transparent 100px);
+}
+
+
+>>>>>>> aac86dbb5c68cf1972b99d4401e52e4e123dc775
