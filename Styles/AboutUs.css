@@ -53,3 +53,26 @@ body{
 }
 
 
+
+
+/*----------MEDIA QUERIES---------------*/
+
+@media screen and (max-width : 700px){
+    .head{
+        margin-top: 2%;
+        font-size: 130%;
+        color: #5820b2e8;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+        background: repeating-linear-gradient(45deg, #98c6396e, transparent 100px);
+    }
+    .heading{
+        font-size: 130%;
+        color: #5820b2e8;
+        text-align: center;
+        background: linear-gradient(45deg, #ff9473, #e96bb773);
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
