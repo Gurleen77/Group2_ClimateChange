@@ -173,11 +173,34 @@ body{
 	width: 500px;
 }
 
+.features-text p:nth-child(1){
+	font-family: -webkit-body;
+	font-weight:bold;
+	color:rgb(7 32 198 / 92%);
+	font-size:60px;
+    line-height:0px;
+}
+.features-text p:nth-child(2){
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	color:rgb(24, 24, 24);
+	font-size: 30px;
+    line-height: 5px;
+    margin-top: 10%;
+}
+.features-text p:nth-child(3){
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(24, 24, 24);
+    font-size: 20px;
+    margin-top: 10%;
+}
+
 .text_allign_margin{
     margin-left: 7%;
     margin-top: 5%;
 }
 
+/*-------------Image hover, flip card----------------*/
 
 .flip-card {
     background-color: transparent;
@@ -223,7 +246,7 @@ body{
     transform: rotateY(180deg);
   }
 
-  .box-container{
+.box-container{
 	display:flex;
 	justify-content:space-between;
 }
@@ -247,6 +270,8 @@ body{
 	margin: 5%;
 	
 }
+
+/*----------------SLIDER  AND SLIDE SHOW--------------*/
 
 .slider{
 	display: flex;
@@ -311,7 +336,6 @@ body{
 
 
 
-
 /*--------------------FOOTER---------------------------*/
 #footer{
 	padding: 30px;
@@ -354,6 +378,9 @@ body{
 .full div{text-align:center;}
 
 .copyright{border-top: solid 1px #ddd;margin-top: 20px;padding-top:10px;}
+
+
+/*-------------------MEDIA QUERIES---------------*/
 
 
 @media screen and (max-width:700px){
@@ -401,6 +428,38 @@ body{
 	flex-direction: column;
     margin: 5%;
     margin-left: 30%;
-        
+    }
+
+    
+    .features-text p:nth-child(1){
+        font-family: -webkit-body;
+        font-weight:bold;
+        color:rgb(7 32 198 / 92%);
+        font-size:250%;
+        line-height:0px;
+        margin-top: 10%;
+    }
+    .features-text p:nth-child(2){
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        color:rgb(24, 24, 24);
+        font-size: 150%;
+        line-height: 5px;
+        margin-top: 20%;
+    }
+    .features-text p:nth-child(3){
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color:rgb(24, 24, 24);
+        font-size: 150%;
+        margin-top: 10%;
+    }
+
+    .features-text{
+        width: 100%;
+    }
+
+    .text_allign_margin{
+        margin-left: 7%;
+        margin-top: 5%;
     }
 }
