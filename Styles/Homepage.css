@@ -160,6 +160,15 @@ body{
 .clearfix::after{content: " ";display: block;clear:both;}
 
 
+/*           main section          */
+
+.div1{
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 1.5%;
+}
+
+
 
 
 /*--------------------FOOTER---------------------------*/
