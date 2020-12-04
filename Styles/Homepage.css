@@ -351,3 +351,53 @@ body{
 .full div{text-align:center;}
 
 .copyright{border-top: solid 1px #ddd;margin-top: 20px;padding-top:10px;}
+
+
+@media screen and (max-width:700px){
+    .b1{
+        background-color: rgb(223, 219, 219);
+        width: 100%;
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+    
+    .aside{
+        width: 50%;
+        height: 50%;
+        display: none;
+        float:left;
+    }
+
+    .slider{
+        display: flex;
+        width: 100%;
+    }
+
+    
+    .box-container{
+        display:none;
+        justify-content:space-between;
+    }
+
+    
+    .box-container1{
+        margin-left: 20%;
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .box-1,.box-2,.box-3{
+	width: 30%;
+    height:30%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+    margin: 5%;
+    margin-left: 30%;
+        
+    }
+}
