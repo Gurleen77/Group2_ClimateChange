@@ -131,3 +131,35 @@ article{
         visibility: hidden;
         display: none;
         }
+
+        
+    #section-1{
+        border-color: beige;
+        border-style: inset;
+        border-radius: 3%;
+        width: 95%;
+        background-color: #BCA88E;
+        color: #404242; 
+        margin-top: 3%; 
+        margin-left: 2%;
+        margin-bottom: 2%;
+        padding: 1%; 
+        float: left;
+    }
+    
+    #section-2{
+        border-color: beige;
+        border-style: groove;
+        border-radius: 3%;
+        width: 95%;
+        background-color: #BCA88E;
+        color: #404242; 
+        margin-top: 3%; 
+        margin-left: 2%;
+        margin-bottom: 2%;
+        padding: 1%; 
+        float: left;
+    }
+
+  
+}
