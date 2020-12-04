@@ -1,0 +1,119 @@
+#formula1{
+    text-align: center !important;  
+    background: linear-gradient( #6d87e4, rgb(230, 216, 216)) !important;
+    max-width: 30% !important; 
+    margin: auto !important; 
+    border: inset !important;
+    padding-left: 10% !important; 
+    border-radius: 7% !important; 
+    padding: 1% !important; 
+    margin-top: 1% !important; 
+    margin-bottom: 1% !important; 
+    font-size: large !important; 
+}
+
+#Para{
+    font-family: system-ui;
+    font-weight: 450;
+}
+
+#paragraph1{
+    text-align: left;
+    margin-left: 2%;
+    font-family: -webkit-body;
+    font-size: 130%;
+}
+
+#fName, #lName {
+    padding: 1.5%;
+    width: 100%;
+    font-family: -webkit-body;
+}
+
+#lfName{
+    font-size: 90%; 
+    margin-left: 1%;
+    font-family: -webkit-body;
+}
+
+#llName{
+    font-size: 90%; 
+    margin-left: 1%;
+    font-family: -webkit-body;
+}
+
+#phoneNumber{
+    font-weight: bold; 
+    text-align: left;
+    margin-left: 2%;
+    font-family: -webkit-body;
+    font-size: 110%;
+}
+
+#emailTo{
+    font-weight: bold; 
+    text-align: left;
+    margin-left: 2%;
+    font-family: -webkit-body;
+    font-size: 110%;
+}
+
+#telNo, #mailTo {
+    padding: 1.5%; 
+    text-align: left;
+    margin-left: 1%;
+    font-family: -webkit-body;
+}
+
+#pref{
+    font-weight: bold;
+     text-align: left;
+     margin-left: 2%;
+     font-family: -webkit-body;
+    font-size: 110%;
+}
+
+#asideleft{
+    float: left;
+}
+
+#asideright{
+    float: right;
+    margin-right: 1.9em;
+}
+
+#submitDiv{
+    margin-top: 4.5em;
+    text-align: center;
+}
+
+#formSubmit{
+    font-size: large;
+}
+
+#dateReq{
+    margin-left: 1.3em;
+}
+
+#heading1{
+    color: black;
+    font-family: emoji;
+    font-size: xx-large;
+}
+
+#aside_last{
+    float: right;
+    text-align: left;
+}
+#aside_first{
+    float: left;
+    text-align: left;
+}
+
+#div_aside_first{
+    margin-left: 2%;
+}
+
+#div_aside_last{
+    margin-right: 0%;
+}   
