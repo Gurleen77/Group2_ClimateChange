@@ -1,33 +1,34 @@
+
 body{
     background-color: #faf8f2;
 }
 
 .aside1 { 
-    background-color: #85D2D0; 
+    background-color: #606060FF; 
     border-radius: 3%; 
     width: 30%; 
     float: right; 
     padding: 2%; 
     margin-top: 3.4%; 
     margin-right: 2%;
-    color: #3d1955; 
+    color: #FFFFFF; 
   }
 
 .aside2 { 
-background-color:  #85D2D0; 
+background-color: #606060FF; 
 border-radius: 3%; 
 width: 30%; 
 float: left; 
 padding: 2%; 
 margin-top: 3.5%; 
-color: #3d1955; 
+color: #FFFFFF; 
 margin-left: 2%;
 }
 
 .h1aside{
     text-align: center;
     background-color: #ffffff;
-    color: rgb(225, 75, 75);
+    color: maroon;
 }
 
 .quote{
@@ -39,8 +40,8 @@ margin-left: 2%;
     border-style: inset;
     border-radius: 3%;
     width: 65%;
-    background-color: #BCA88E;
-    color: #404242; 
+    background-color: #183440;
+    color: #FFFFFF; 
     margin-top: 3%; 
     margin-left: 1%;
     margin-right: 1%;
@@ -55,8 +56,8 @@ margin-left: 2%;
     border-style: groove;
     border-radius: 3%;
     width: 65%;
-    background-color: #BCA88E;
-    color: #404242; 
+    background-color: #183440;
+    color: #FFFFFF; 
     margin-top: 3%; 
     margin-left: 1%;
     margin-right: 1%;
@@ -68,19 +69,20 @@ margin-left: 2%;
 .C-h1{
     display: block;
     font-size: 280%;
+    background: linear-gradient(white), rgb(74, 132, 238);
     margin-block-start: 2%;
     margin-block-end: 2%;
     font-weight: bold;
-    background: linear-gradient(360deg, #1ad297fc, transparent);
+    background: linear-gradient(45deg, #5974c1, transparent);
     text-align: center;
     font-family: -webkit-body;
 }
 
 .C-h2{
-    color: #b82a87c9;
+    color: #2b4ae2;
     text-align: center;
     font-size: 210%;
-    background: #f7f7f7;
+    background: bisque;
 }
 
 
@@ -107,40 +109,37 @@ article{
     
 }
 
-/*-------------------MEDIA QUERIES---------------*/
-
 @media screen and (max-width : 700px){
     .aside2 { 
-        background-color: #85D2D0; 
+        background-color: #606060FF; 
         border-radius: 3%; 
         width: 95%; 
         float: left; 
         padding: 2%; 
         margin-top: 3%; 
         margin-left: 2%;
-        color: #3d1955;
+        color: #FFFFFF;
         }
 
     .aside1 { 
-        background-color: #85D2D0; 
+        background-color: #606060FF; 
         border-radius: 3%; 
         width: 95%; 
         float: right; 
         padding: 2%; 
         margin-top: 3.5%; 
-        color: #3d1955; 
+        color: #FFFFFF; 
         visibility: hidden;
         display: none;
         }
 
-        
     #section-1{
         border-color: beige;
         border-style: inset;
         border-radius: 3%;
         width: 95%;
-        background-color: #BCA88E;
-        color: #404242; 
+        background-color: #183440;
+        color: #FFFFFF; 
         margin-top: 3%; 
         margin-left: 2%;
         margin-bottom: 2%;
@@ -153,8 +152,8 @@ article{
         border-style: groove;
         border-radius: 3%;
         width: 95%;
-        background-color: #BCA88E;
-        color: #404242; 
+        background-color: #183440;
+        color: #FFFFFF; 
         margin-top: 3%; 
         margin-left: 2%;
         margin-bottom: 2%;
